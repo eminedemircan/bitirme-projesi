@@ -1,0 +1,225 @@
+.üst{
+    background-color: rgba(136, 132, 132, 0.327);
+}
+span{
+    color: #df8620;
+}
+h1{
+    color: #D0D4CA;
+    font-size: 32px;
+    margin: 10px;
+    display: inline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    color: #D0D4CA; 
+}
+.ikon{
+    display: flex;
+    align-items: center;
+    margin-left: 650px;
+    gap: 50px;
+}
+.logo{
+    margin-left: 70px;
+   
+}
+
+
+.bosluk{
+    gap:60px;
+}
+form{
+margin-left: 400px;
+}
+
+
+.sidebar {
+width: 100%;
+background-color: #f4f4f4;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-left: 100px;
+margin-top: 40px;
+}
+
+
+.sidebar-nav ul {
+list-style: none;
+padding: 0;
+}
+
+.sidebar-nav li {
+margin-bottom: 10px;
+margin: 20px;
+}
+
+.sidebar-nav a {
+text-decoration: none;
+color: #555;
+font-size: 16px;
+}
+
+
+input[type=search]{
+width: 300px;
+height: 35px;
+font-size: 18px;
+padding-left: 20px;
+border-radius: 15px;
+border: solid #8d8c8c 2px;
+background-color:  rgba(136, 132, 132, 0.327);
+
+}
+
+
+.shopping-cart-list{
+    position: absolute;
+    width: 25rem;
+    right: -0.75rem;
+    top: 2.9rem;
+    padding: 1rem;
+    z-index: 1;
+}
+
+.shopping-cart-list .list-item{
+    margin-top: 1rem;
+}
+
+.anadiv{
+    display: flex;
+   
+    gap: 120px;
+    margin-top: 50px;
+
+}
+.kategori{
+    margin-left: 150px;
+}
+*{box-sizing: border-box;}
+    .kodla-slider{
+        max-width: 40em;
+        position: relative;
+        margin: auto;
+    }
+
+    .slide-image{
+        width: 100%;
+        height: 20em; 
+        object-fit: cover;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+    .number {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+    
+    .fade {
+        animation-name: fade;
+        animation-duration: 20s;
+    }
+
+    @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+    }
+
+    @media only screen and (max-width: 300px) {
+        
+        .prev, .next,.text {font-size: 11px}
+    
+    }
+
+    .yukarı{
+        background-color: rgba(136, 132, 132, 0.327);
+        height: 25vh;
+        padding: 30px 70px;
+        color: #8d8c8c;
+    }
+    footer{
+        background-color: rgba(136, 132, 132, 0.327);
+        height: 40vh;
+        padding: 50px 70px;
+        color: #8d8c8c;
+      
+        list-style: none;
+    }
+    h5{
+        color: #454545;
+    }
+    footer div li{
+        margin: 10px;
+    }
+    .mailbuton{
+        background-color: #df8620;
+        border: solid 1px #df8620;
+        border-radius: 2px;
+        margin: 10px 0px;
+    }
+    .mailkutusu{
+        border-color: rgba(136, 132, 132, 0.327);
+    }
+   
+    .tablo{
+        background-color: #df8620;
+        color: #f2f2f2;
+    }
+ 
+   .boştablo{
+    margin: auto;
+    gap: 200px;
+    border: 1px solid rgba(136, 132, 132, 0.327);
+   }
+   .sepet{
+    margin-top: 200px;
+   }
+ 
+   
